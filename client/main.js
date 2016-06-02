@@ -3,6 +3,10 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
+      templateUrl: 'partials/start.html',
+      access: {restricted: true}
+    })
+    .when('/home', {
       templateUrl: 'partials/home.html',
       access: {restricted: true}
     })
