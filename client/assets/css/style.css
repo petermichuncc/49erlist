@@ -1,5 +1,9 @@
-
-
+.md-nav-item {
+  color: white;}
+.navBardemoBasicUsage md-content .ext-content {
+  padding: 50px;
+  margin: 20px;
+  background-color: #FFF2E0; }
 /*#003311*/
 .rating {
   font-size: 175%;
