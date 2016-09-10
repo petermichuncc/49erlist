@@ -1,5 +1,5 @@
 var myApp = angular.module('myApp', ['ngRoute','ngMaterial']);
-
+/*start working on the pages needed for this tutoring app*/
 myApp.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
